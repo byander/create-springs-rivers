@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+#folders
+.idea/
+.vscode/
+
+# Environments
+.env
+.venv/
+venv/
+
+# pyenv
+.python-version
