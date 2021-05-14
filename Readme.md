@@ -2,7 +2,7 @@
 
 Create points from springs from rivers. Tested only UTM coordinates.
 
-Criar pontos de nascentes a partir dos rios. Teste apenas com coordenadas UTM.
+Criar pontos de nascentes a partir dos rios. Testado apenas com coordenadas UTM.
 
 ### Observations / Observações
 
@@ -28,12 +28,12 @@ Veja a documentação do Geopandas como instalar a biblioteca.
   Entrada - Nome (com extensão) e caminho do shapefile dos rios.
 
 
-* -o: Output - Name (with extension) and shapefile path of springs points  
-  Saída - Nome (com extensão) e caminho do shapefile dos pontos das nascentes
+* -o: Output - Only name (without extension) of springs points  
+  Saída - Apenas o nome (sem extensão) dos pontos das nascentes
 
 
 Example / Exemplo  
-`python main.py -i 'F:\Trabalho\Lactec\Projetos\P231_VantIA\Camadas\Vetores\rivers.shp' -o 'points_spring'`
+`python main.py -i 'C:\folder\rivers.shp' -o 'points_spring'`
 
 ### Requirements / Requerimentos
 * Geopandas: https://geopandas.org/getting_started/install.html
